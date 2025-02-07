@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <h1 id="level-title" class="flex justify-center mt-20 font-bold">Press Any Key to Start</h1>
+  <div class="flex flex-col items-center gap-y-2 mt-5">
+
+    <div class="flex flex-row gap-x-5">
+      <button id="green" class="border rounded bg-green-400 w-20 h-20"></button>
+      <button id="red" class="border rounded bg-red-400 w-20 h-20"></button>
+    </div>
+
+    <div class="flex flex-row gap-x-5">
+      <button id="yellow" class="border rounded bg-yellow-400 w-20 h-20"></button>
+      <button id="blue" class="border rounded bg-blue-400 w-20 h-20"></button>
+    </div>
+  </div>
+
+  <footer class="flex flex-col items-center mt-30">
+      <p>Simon Games with Javascript</p>
+      <p class="font-semibold text-xl">Made by Pramudya Pratama</p>
+  </footer>
+
+  <script src="game.js"></script>
+</body>
+
+</html>
